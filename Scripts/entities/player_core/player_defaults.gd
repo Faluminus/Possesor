@@ -15,6 +15,6 @@ func _physics_process(_delta: float) -> void:
 
 func interact() -> void:	
 	pass
-	
+
 func attack() -> void:
 	pass
