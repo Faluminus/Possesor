@@ -1,11 +1,20 @@
 extends CharacterBody2D
+class_name MainEntityNode
 
+@export var SPEED := 100
 
-# Called when the node enters the scene tree for the first time.
+var speed: float
+
 func _ready() -> void:
-	pass # Replace with function body.
+	speed = SPEED
+	
+	pass 
 
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _physics_process(delta: float) -> void:
+	
+	pass
+
+
 func _process(delta: float) -> void:
 	pass

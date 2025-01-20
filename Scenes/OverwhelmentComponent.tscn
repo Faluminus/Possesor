@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bib28rn5wtdk0"]
+
+[ext_resource type="Script" path="res://Scripts/entities/OverwhelmentComponent.gd" id="1_rh8q1"]
+
+[node name="OverwhelmentComponent" type="Node2D"]
+script = ExtResource("1_rh8q1")
