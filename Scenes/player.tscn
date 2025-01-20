@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://b5lna63v4jppn"]
+[gd_scene load_steps=6 format=3 uid="uid://b5lna63v4jppn"]
 
-[ext_resource type="Script" path="res://Scripts/entities/player_core/player_defaults.gd" id="1_w4lu8"]
-[ext_resource type="Script" path="res://Scripts/entities/overwhelment_component.gd" id="2_22xri"]
-[ext_resource type="Script" path="res://Scripts/entities/health_component.gd" id="3_whyg8"]
+[ext_resource type="Script" path="res://Scripts/entities/player_core/DefaultComponent.gd" id="1_w4lu8"]
+[ext_resource type="Script" path="res://Scripts/entities/OverwhelmentComponent.gd" id="2_22xri"]
+[ext_resource type="Script" path="res://Scripts/entities/HealthComponent.gd" id="3_whyg8"]
+[ext_resource type="Script" path="res://Scripts/entities/player_core/weapons/AxeComponent.gd" id="4_82km3"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_unlqa"]
 
@@ -19,4 +20,5 @@ script = ExtResource("2_22xri")
 script = ExtResource("3_whyg8")
 MAX_HEALTH = 100
 
-[node name="WeaponComponent" type="Node2D" parent="."]
+[node name="AxeComponent" type="Node2D" parent="."]
+script = ExtResource("4_82km3")

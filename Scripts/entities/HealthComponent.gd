@@ -8,5 +8,8 @@ func _ready() -> void:
 	health = MAX_HEALTH
 	
 func damage(attack: float) -> bool:
+	health -= attack
 	
+	if health > 0:
+		return true
 	return false
