@@ -13,7 +13,7 @@ func _physics_process(_delta: float) -> void:
 		velocity.x = -1 * SPEED
 	move_and_slide()
 
-func interact() -> void:
+func interact() -> void:	
 	pass
 	
 func attack() -> void:

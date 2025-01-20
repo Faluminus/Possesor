@@ -1,8 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://bkl7ye8cr17g4"]
+[gd_scene load_steps=3 format=3 uid="uid://bkl7ye8cr17g4"]
 
 [ext_resource type="PackedScene" uid="uid://b5lna63v4jppn" path="res://Scenes/player.tscn" id="1_baayu"]
+[ext_resource type="Script" path="res://Scripts/entities/health_component.gd" id="1_r3kgl"]
 
 [node name="Game" type="Node2D"]
+script = ExtResource("1_r3kgl")
+MAX_HEALTH = null
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("1_baayu")]
 position = Vector2(265, 163)
